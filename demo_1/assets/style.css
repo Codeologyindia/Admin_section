@@ -1,0 +1,177 @@
+.sidebar {
+    width: 250px;
+    background-color: #161718;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    color: white
+}
+
+.sidebar h4 {
+    color: #fff;
+    /* font-weight: 600; */
+    border-bottom: 1px solid #24272a;
+    padding-bottom: 15px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 20px;
+    color: #f2f3f6;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.sidebar a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sidebar a.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    overflow: hidden;
+    margin-top: 24px;
+    background: #fff;
+}
+
+.card-header {
+    background: #161718;
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+    padding: 18px 24px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+.table1 {
+    height:300px;
+    width: 100%;
+    background: #fff;
+    padding: 0 16px 16px 16px;
+overflow: scroll;
+  resize: both;
+}
+
+.table1-1 {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+}
+
+
+.table1-1-1 {
+    background-color: #161718;
+}
+
+.table1-1 th {
+    background-color: #161718;
+    color: #fff;
+    font-weight: 600;
+    padding: 16px 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table1-1 td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #161718;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.table1-1 tr:last-child td {
+    border-bottom: none;
+}
+
+.table1-1 tr:hover {
+    background-color: #f8f9fa;
+    transition: background 0.2s;
+}
+
+.edit1, .delete1, .update1 {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.edit1 {
+    background-color: #3498db;
+    color: white;
+}
+
+.edit1:hover {
+    background-color: #2980b9;
+}
+
+.delete1 {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.delete1:hover {
+    background-color: #c0392b;
+}
+
+.update1 {
+    background-color: #27ae60;
+    color: white;
+}
+
+.update1:hover {
+    background-color: #229954;
+}
+
+.info-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 24px 18px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.info-title {
+  font-size: 15px;
+  color: #888;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.info-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
