@@ -50,12 +50,12 @@
 </head>
 <body>
 
-  <form class="box" action="email-sent.html" method="post">
+  <form class="box" action="index.php" method="post">
     <h2>Forgot Password</h2>
     <p style="font-size: 14px;">Enter your email</p>
     <input type="email" name="email" placeholder="Email" required>
     <input type="submit" value="Reset Password">
-    <a href="login.html">Back to Login</a>
+    <input type="button">Back to Login</input>
   </form>
 
 </body>
