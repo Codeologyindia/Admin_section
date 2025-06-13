@@ -55,7 +55,7 @@
     <p style="font-size: 14px;">Enter your email</p>
     <input type="email" name="email" placeholder="Email" required>
     <input type="submit" value="Reset Password">
-    <input type="button">Back to Login</input>
+    <a href="index.php">Back to Login</a>
   </form>
 
 </body>

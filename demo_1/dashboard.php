@@ -14,6 +14,9 @@
         <a href="#"><i class='fas fa-user-alt' style='font-size:20px;'></i> Users</a>
         <a href="#"><i class="fa fa-gear" style='font-size:20px;'></i>      Settings</a>
         <a href="#" class="active"><i class="fa fa-dashboard"></i>       Dashboard</a>
+        <a href="index.php"><i class="fa fa-sign-out"></i>     Reports</a>
+        <a href="index.php"><i class="fa fa-credit-card"></i>     Payment Gateway</a>
+        <a href="index.php"><i class="fa fa-sign-out"></i>     Transactions</a>
         <a href="index.php"><i class="fa fa-sign-out"></i>     Logout</a>
     </div>
 
