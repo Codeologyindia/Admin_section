@@ -1,27 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-    
-   
-<div class="topbar">
-  <div class="topbar-right">
-    <img src="path/to/profile.jpg" alt="Profile" class="profile-pic">
-    <span class="username">Jonathan Doe</span>
-    <div class="dropdown">
-      <button class="dropbtn">&#9776;</button>
-      <div class="dropdown-content">
-        <a href="#">Settings</a>
-        <a href="logout.php">Logout</a>
-      </div>
+
+<style>
+.demo a{
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  background-color:black;
+  padding: 10px;
+  border-radius: 50%;
+}
+</style>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-9">
+
+  </div>
+  <div class="col-md-3">
+    <div class="demo">
+
+ <a href="#" title="Settings"><i class="fa fa-cog"></i></a>
+    <a href="#" title="User"><i class="fa fa-user"></i></a>
+    <a href="#" title="Logout"><i class="fa fa-sign-out"></i></a>
     </div>
   </div>
+
+
 </div>
- 
-</body>
-</html>
+</div>

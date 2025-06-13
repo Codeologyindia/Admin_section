@@ -10,9 +10,10 @@
 </head>
 <body>
    <?php include('sidebar.php');?>
-<?php include('topbar.php');?>
+   
 
     <div class="main-content">
+        <?php include('topbar.php');?>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
