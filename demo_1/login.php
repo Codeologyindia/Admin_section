@@ -67,12 +67,12 @@
 </head>
 <body>
 
-  <form class="login-box" action="putlinkofdashboardhere.html" method="post">
+  <form class="login-box" action="putlinkofdashboardhere.php" method="post">
     <h2>Admin Login</h2>
     <input type="text" name="username" placeholder="Username" required>
     <input type="password" name="password" placeholder="Password" required>
     <a href="demo_1\index.php"><input type="submit" value="Login"></a>
-    <a href="forgot-password.html" class="forgot-password">Forgot Password?</a>
+    <a href="forgot-password.php" class="forgot-password">Forgot Password?</a>
     
   </form>
 
