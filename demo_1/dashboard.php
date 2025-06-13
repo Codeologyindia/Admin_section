@@ -9,16 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="sidebar">
-        <h3 class="px-3 mb-4">Admin Panel</h3>
-        <a href="#"><i class='fas fa-user-alt' style='font-size:20px;'></i> Users</a>
-        <a href="#"><i class="fa fa-gear" style='font-size:20px;'></i>      Settings</a>
-        <a href="#" class="active"><i class="fa fa-dashboard"></i>       Dashboard</a>
-        <a href="index.php"><i class="fa fa-sign-out"></i>     Reports</a>
-        <a href="index.php"><i class="fa fa-credit-card"></i>     Payment Gateway</a>
-        <a href="index.php"><i class="fa fa-sign-out"></i>     Transactions</a>
-        <a href="index.php"><i class="fa fa-sign-out"></i>     Logout</a>
-    </div>
+   <?php include('sidebar.php');?>
+<?php include('topbar.php');?>
 
     <div class="main-content">
         <div class="container-fluid">
@@ -77,23 +69,27 @@
                         <table class="table1-1">
                             <thead class="table1-1-1">
                                 <tr>
+                                    <th>S.No</th>
+                                    <th>UTR ID</th>
                                     <th>First Name</th>
                                     <th>Last Name</th>
-                                    <th>UTR ID</th>
+                                    <th>Mobile Number</th>
                                     <th>Status</th>
-                                    <th>Date & Time</th>
-                                    <th>API Key</th>
+                                    <th>Date</th>
+                                    <th>Time</th>
                                     <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>1</td>
+                                    <td>UTR001</td>
                                     <td>Angel</td>
                                     <td>Rao</td>
-                                    <td>UTR001</td>
+                                    <td>9876543210</td>
                                     <td><span class="badge bg-success">Success</span></td>
-                                    <td>2024-06-01 10:15 AM</td>
-                                    <td>Public</td>
+                                    <td>2024-06-01</td>
+                                    <td>10:15 AM</td>
                                     <td>
                                         <button class="edit1">Edit</button>
                                         <button class="delete1">Delete</button>
@@ -101,12 +97,14 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>2</td>
+                                    <td>UTR002</td>
                                     <td>Chhavi</td>
                                     <td>Sachdeva</td>
-                                    <td>UTR002</td>
+                                    <td>9876543211</td>
                                     <td><span class="badge bg-warning text-dark">Pending</span></td>
-                                    <td>2024-06-01 11:30 AM</td>
-                                    <td>Private</td>
+                                    <td>2024-06-01</td>
+                                    <td>11:30 AM</td>
                                     <td>
                                         <button class="edit1">Edit</button>
                                         <button class="delete1">Delete</button>
@@ -114,12 +112,14 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>3</td>
+                                    <td>UTR003</td>
                                     <td>Gitanjali</td>
                                     <td>Bhalla</td>
-                                    <td>UTR003</td>
+                                    <td>9876543212</td>
                                     <td><span class="badge bg-danger">Failed</span></td>
-                                    <td>2024-06-01 12:45 PM</td>
-                                    <td>Public</td>
+                                    <td>2024-06-01</td>
+                                    <td>12:45 PM</td>
                                     <td>
                                         <button class="edit1">Edit</button>
                                         <button class="delete1">Delete</button>
@@ -127,12 +127,14 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>4</td>
+                                    <td>UTR004</td>
                                     <td>Lashika</td>
                                     <td>Goyal</td>
-                                    <td>UTR004</td>
+                                    <td>9876543213</td>
                                     <td><span class="badge bg-success">Success</span></td>
-                                    <td>2024-06-01 01:10 PM</td>
-                                    <td>Public</td>
+                                    <td>2024-06-01</td>
+                                    <td>01:10 PM</td>
                                     <td>
                                         <button class="edit1">Edit</button>
                                         <button class="delete1">Delete</button>
@@ -140,12 +142,14 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>5</td>
+                                    <td>UTR005</td>
                                     <td>Harsh</td>
                                     <td>Dhariwal</td>
-                                    <td>UTR005</td>
+                                    <td>9876543214</td>
                                     <td><span class="badge bg-success">Success</span></td>
-                                    <td>2024-06-01 02:20 PM</td>
-                                    <td>Private</td>
+                                    <td>2024-06-01</td>
+                                    <td>02:20 PM</td>
                                     <td>
                                         <button class="edit1">Edit</button>
                                         <button class="delete1">Delete</button>

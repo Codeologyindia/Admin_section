@@ -9,7 +9,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 550px;
+      height: 600px;
     }
 
     .login-box {
@@ -17,8 +17,8 @@
       padding: 20px;
       border: 2px solid #ccc;
       border-radius: 12px;
-      width: 350px;
-      height: 250px;
+      width: 450px;
+      height: 300px;
     }
 
     .login-box h2 {
@@ -33,25 +33,29 @@
       margin: 8px 0;
       border: 1px solid #ccc;
       border-radius: 4px;
+      height:25px;
     }
 
     .login-box input[type="submit"] {
-      width: 100%;
+      width: 99%;
       padding: 8px;
       background-color: blue;
       color: white;
       border: none;
       border-radius: 4px;
       cursor: pointer;
-      
+      margin-top:10px;
+      height:40px;
+
     }
+
     .login-box input[type="submit"]:hover {
       background-color: blue;
     }
      .login-box .forgot-password {
       display: block;
       margin-top: 15px;
-      font-size: 14px;
+      font-size: 17px;
      }
 
     .login-box .forgot-password {
