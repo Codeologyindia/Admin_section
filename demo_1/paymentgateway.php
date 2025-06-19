@@ -10,6 +10,10 @@
 </head>
 <body>
    <?php include('sidebar.php');?>
+<<<<<<< Updated upstream
+=======
+   
+>>>>>>> Stashed changes
     <!-- <div class="main-content">
    
 <form action="Demo.php" method="get">
